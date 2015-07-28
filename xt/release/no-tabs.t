@@ -1,7 +1,7 @@
 use strict;
 use warnings;
 
-# this test was generated with Dist::Zilla::Plugin::Test::NoTabs 0.09
+# this test was generated with Dist::Zilla::Plugin::Test::NoTabs 0.06
 
 use Test::More 0.88;
 use Test::NoTabs;
@@ -18,8 +18,7 @@ my @files = (
     'lib/perlfaq7.pod',
     'lib/perlfaq8.pod',
     'lib/perlfaq9.pod',
-    'lib/perlglossary.pod',
-    't/00-compile.t'
+    'lib/perlglossary.pod'
 );
 
 notabs_ok($_) foreach @files;
